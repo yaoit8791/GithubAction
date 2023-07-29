@@ -17,4 +17,4 @@ jobs:
       run:  mvn -B verify sonar:sonar -Dsonar.projectKey=oyagithubsonar1 -Dsonar.organization=oya-sonarcloud -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=$SONAR_TOKEN
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        SONAR_TOKEN: ${{ secrets.SONAR_Token }}
+        SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
